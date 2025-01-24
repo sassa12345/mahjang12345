@@ -1,0 +1,156 @@
+/*
+ *  $Id: color-basic.css,v 1.1 2011/12/20 14:24:41 koba Exp xiumai $
+ *
+ *  Copyright(c) 2006-2014 Satoshi Kobayashi.
+ */
+@import url(style.css);
+
+body      { background: #fff; }
+body      { color:      #000; }
+.error    { color:       red; }
+a:link    { color:      #00f; }
+a:visited { color:      #609; }
+a:active  { color:       red; }
+
+h1 a:link    { color:   #000; }
+h1 a:visited { color:   #000; }
+h1 a:hover   { color:   #369; }
+h1 a:active  { color:    red; }
+
+h1       { border-bottom-color: #369; }
+h2       { border-left-color:   #369; }
+h2       { border-bottom-color: #999; }
+h2       { background:          #ddd; }
+h3       { border-left-color:   #369; }
+h3       { border-bottom-color: #999; }
+h4       { border-bottom-color: #369; }
+h5       { border-bottom-color: #999; }
+
+blockquote
+         { border-color:        #369; }
+
+hr       { border-color:        #999; }
+
+table    { border-color:        #369; }
+table    {
+           border-left-color:   #fff;
+           border-right-color:  #fff;
+}
+tr + tr  { border-color:        #999; }
+th, td   { border-color:        #999; }
+th       { background:          #ddd; }
+
+pre      { border-color:        #369; }
+pre      { background:          #ddd; }
+
+fieldset { border-color:        #369; }
+input[type="submit"] {
+           color:               #fff;
+           background:          #369;
+           border-color:        #369;
+}
+
+div.footnote {
+           border-color:        #999;
+}
+
+table.file_list th a {
+           color:               #000;
+}
+table.file_list th.asc {
+           background:          #ccc      url(../images/theme-asc.png)  no-repeat right center;
+}
+table.file_list th.desc {
+           background:          #ccc      url(../images/theme-desc.png) no-repeat right center;
+}
+
+pre.diff      { border-color:   #999; }
+pre.diff      { background:     #fff; }
+pre.diff ins  { background:     #dfd; }
+pre.diff ins  { color:          #080; }
+pre.diff del  { background:     #fdd; }
+pre.diff del  { color:          #f00; }
+pre.diff span { background:     #eee; }
+kbd           { border-color:   #ccc; }
+kbd           { background:     #eee; }
+
+#toolbar { border-color:        #999; }
+#toolbar a
+         { color:               #999; }
+#toolbar a:hover
+         { color:               #fff; }
+#toolbar a:hover
+         { background:          #999; }
+
+#footer  { border-color:        #369; }
+#footer  { color:               #999; }
+#footer a{ color:               #369; }
+
+.hljs-comment,
+.hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #a626a4;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e45649;
+}
+
+.hljs-literal {
+  color: #0184bb;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: #50a14f;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #c18401;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #986801;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #4078f2;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
